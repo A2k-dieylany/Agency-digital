@@ -1,0 +1,46 @@
+# WordPress Core (ne pas versionner)
+wp-admin/
+wp-includes/
+wp-content/plugins/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/themes/astra/
+wp-content/wpvividbackups/
+
+# Fichiers sensibles
+wp-config.php
+identifiants.txt
+.htaccess
+
+# Fichiers WordPress auto-générés
+*.log
+error_log
+debug.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires du projet
+temp_*.html
+fix-*.php
+add-*.php
+rebuild-*.php
+create-*.php
+animate-*.php
+
+# WP-CLI
+wp-cli.phar
+wp-cli.yml
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
